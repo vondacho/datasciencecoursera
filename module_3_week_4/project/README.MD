@@ -23,7 +23,7 @@ The feature variables in both datasets are renamed using the descriptive naming 
 
 The rows of the test X_ dataset are added to the training X_ dataset. The new Group column is added and groups the two sets of rows.
 
-The resulting dataset is merged with the Activity dataset which sets a better descriptive variable name for the activity.
+The resulting dataset is merged with the Activity dataset. This sets a better descriptive variable name for the activity inside the dataset.
 
 Finally the dataset is summarized by activity and subject.
 
