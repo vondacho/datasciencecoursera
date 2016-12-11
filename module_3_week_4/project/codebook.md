@@ -4,7 +4,7 @@ This code book describes the variables of the dataset produced be the run_analys
 
 ## Subject variable
 
-This variable represents anonymous persons by numbers between 1 and 30.
+This variable represents anonymous persons with numbers between 1 and 30.
 
 ## Activity variable
 
@@ -106,7 +106,7 @@ The features variables are the following:
 * angle_tbodyaccjerkmean_gravitymean
 * angle_tbodygyromean_gravitymean
 * angle_tbodygyrojerkmean_gravitymean
-* angle_x_gravitymean"
+* angle_x_gravitymean
 * angle_y_gravitymean
 * angle_z_gravitymean
 
