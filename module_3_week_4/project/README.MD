@@ -13,7 +13,7 @@ Open the run_analysis.R script inside RStudio and set the working directory to t
 Source the run_analysis.R script.
 
 ### Output
-The execution of the run_analysis.R script outputs the tidy_dataset.txt file. 
+The execution of the run_analysis.R script generates the tidy_dataset.txt file. 
 
 ## Getting and Cleaning
 
@@ -21,7 +21,7 @@ The script loads the training and test X_ datasets which contains the feature va
 
 The feature variables in both datasets are renamed using the descriptive naming provided by the data of the features vector. The undesired characters found in the feature names data are dropped before the renaming.
 
-The rows of the training and test X_ datasets are fused and characterized by a the new column Group.
+The rows of the test X_ dataset are added to the training X_ dataset. The new Group column is added and groups the two sets of rows.
 
 The resulting dataset is merged with the Activity dataset which sets a better descriptive variable name for the activity.
 
