@@ -25,12 +25,12 @@ The rows of the test X_ dataset are added to the training X_ dataset. The new Gr
 
 The resulting dataset is merged with the Activity dataset. This sets a better descriptive variable name for the activity inside the dataset.
 
-Finally the dataset is summarized by activity and subject.
+Finally the dataset is summarized by activity and subject. Each feature variable is replaced by the mean of its values. The Group column is not considered.
 
 ## Other
 
 The execution of the script logs the different stages.
 
-This script uses function of the dplyr package.
+This script uses functions of the dplyr package.
 
 The load_signals_DS function loads the datasets which contain the Triaxial acceleration from the accelerometer (total acceleration), the estimated body acceleration and the Triaxial Angular velocity from the gyroscope. This function is not called by default.
